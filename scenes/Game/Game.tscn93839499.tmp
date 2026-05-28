@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d0se12nob7riy"]
+
+[ext_resource type="Script" uid="uid://btm133av1xbm0" path="res://scripts/card/fapai.gd" id="1_bekgd"]
+
+[node name="Node2D" type="Node2D" unique_id=1559440060]
+script = ExtResource("1_bekgd")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1637395786]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="." unique_id=1031750314]
+offset_left = 472.0
+offset_top = 272.0
+offset_right = 520.0
+offset_bottom = 312.0
+text = "换牌"
+
+[connection signal="pressed" from="Button" to="." method="fapai"]

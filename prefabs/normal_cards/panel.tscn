@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bvymtbaev6hg"]
+
+[ext_resource type="Script" uid="uid://b00gryvkjhgx1" path="res://prefabs/normal_cards/CardScene.gd" id="1_cgph3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cg7l5"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.4599586, 0.45995873, 0.45995843, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Panel" type="Panel" unique_id=1086767389]
+offset_right = 142.0
+offset_bottom = 190.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_cg7l5")
+script = ExtResource("1_cgph3")
+
+[node name="CardTexture" type="TextureRect" parent="." unique_id=822430685]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

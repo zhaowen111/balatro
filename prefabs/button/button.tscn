@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://b2wb5ltudnv7d"]
+
+[ext_resource type="Script" uid="uid://crqscnq1pr13o" path="res://prefabs/button/button.gd" id="1_r04n3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1w7y4"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0, 0.5294118, 0.9411765, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6p1if"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0, 0.5294118, 0.9411765, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vxd0w"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0, 0.40483034, 0.72882146, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_janqo"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0, 0.5294118, 0.9411765, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sbfn0"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0, 0.5294118, 0.9411765, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[node name="Button" type="Button" unique_id=893168297]
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_1w7y4")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6p1if")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vxd0w")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_janqo")
+theme_override_styles/focus = SubResource("StyleBoxFlat_sbfn0")
+text = "开始游戏"
+script = ExtResource("1_r04n3")

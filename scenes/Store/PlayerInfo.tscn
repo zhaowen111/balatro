@@ -1,0 +1,372 @@
+[gd_scene format=3 uid="uid://cpj61weyuwb31"]
+
+[ext_resource type="Texture2D" uid="uid://80it5q8gcadt" path="res://sprites/ShopSignAnimation.png" id="1_00fm7"]
+[ext_resource type="Script" uid="uid://bbbt5w6bjgwp5" path="res://scenes/Store/player_info.gd" id="1_s2xv1"]
+[ext_resource type="StyleBox" uid="uid://dboy7j6jgljd2" path="res://scenes/Store/panel.tres" id="3_d2146"]
+[ext_resource type="Texture2D" uid="uid://c2su0mof54n3t" path="res://scenes/Store/chipAtlas.atlastex" id="4_d2146"]
+[ext_resource type="Script" uid="uid://55um5tt54my8" path="res://scripts/MyBaseButton.gd" id="5_sblrg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_by5di"]
+bg_color = Color(0.16862746, 0.21568628, 0.23921569, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s2xv1"]
+bg_color = Color(0.11764706, 0.14509805, 0.16078432, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.8509804, 0.23529412, 0.21568628, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8bfr"]
+atlas = ExtResource("1_00fm7")
+region = Rect2(0, 0, 226, 114)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2146"]
+atlas = ExtResource("1_00fm7")
+region = Rect2(226, 0, 226, 114)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sblrg"]
+atlas = ExtResource("1_00fm7")
+region = Rect2(452, 0, 226, 114)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_by5di"]
+atlas = ExtResource("1_00fm7")
+region = Rect2(678, 0, 226, 114)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tfs1j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y8bfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2146")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sblrg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_by5di")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2146"]
+bg_color = Color(0, 0.5764706, 0.99607843, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sblrg"]
+bg_color = Color(0.9411765, 0.26666668, 0.22352941, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tfs1j"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.9372549, 0.27058825, 0.22352941, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vdxtb"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.627451, 0.13333334, 0.10980392, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g7imm"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.627451, 0.13333334, 0.10980392, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp23f"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.93333334, 0.6039216, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lqxii"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.6, 0.32156864, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cgguf"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+bg_color = Color(0.6, 0.32156864, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[node name="PlayerInfo" type="Node2D" unique_id=585458930 node_paths=PackedStringArray("titleAnimation", "allScoreLabel", "subScoreLabel", "magLabel")]
+script = ExtResource("1_s2xv1")
+titleAnimation = NodePath("Panel/Title/AnimatedSprite2D")
+allScoreLabel = NodePath("Panel/AllScoreWrapper/Panel/allScore")
+subScoreLabel = NodePath("Panel/SingleScoreWrapper/Panel/subScore")
+magLabel = NodePath("Panel/SingleScoreWrapper/Panel2/mag")
+
+[node name="Panel" type="Panel" parent="." unique_id=912251403]
+offset_top = -15.999999
+offset_right = 416.0
+offset_bottom = 808.0
+scale = Vector2(0.8, 0.8)
+theme_override_styles/panel = SubResource("StyleBoxFlat_by5di")
+
+[node name="Title" type="Panel" parent="Panel" unique_id=294189642]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -176.0
+offset_top = 48.0
+offset_right = 184.0
+offset_bottom = 232.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_s2xv1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Panel/Title" unique_id=143028710]
+position = Vector2(184, 72)
+sprite_frames = SubResource("SpriteFrames_tfs1j")
+frame_progress = 0.1016996
+
+[node name="Label" type="Label" parent="Panel/Title" unique_id=1396261132]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -68.0
+offset_top = 120.0
+offset_right = 76.0
+offset_bottom = 170.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0.75686276, 0.4509804, 1)
+theme_override_font_sizes/font_size = 36
+text = "来变强吧！"
+
+[node name="AllScoreWrapper" type="Panel" parent="Panel" unique_id=1407679218]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -176.0
+offset_top = 256.0
+offset_right = 184.0
+offset_bottom = 328.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Label" type="Label" parent="Panel/AllScoreWrapper" unique_id=1509599050]
+layout_mode = 0
+offset_left = 24.0
+offset_right = 80.0
+offset_bottom = 71.0
+theme_override_constants/line_spacing = 0
+text = "回合
+分数"
+
+[node name="Panel" type="Panel" parent="Panel/AllScoreWrapper" unique_id=1035193761]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -256.0
+offset_top = -28.0
+offset_right = -8.0
+offset_bottom = 24.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="allScore" type="Label" parent="Panel/AllScoreWrapper/Panel" unique_id=216307220]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1.0
+offset_top = -34.0
+offset_right = 39.0
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/line_spacing = 3
+theme_override_font_sizes/font_size = 48
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/AllScoreWrapper/Panel/allScore" unique_id=643147521]
+layout_mode = 0
+offset_left = -42.0
+offset_top = 17.0
+offset_right = -4.0
+offset_bottom = 55.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+texture = ExtResource("4_d2146")
+
+[node name="SingleScoreWrapper" type="Panel" parent="Panel" unique_id=1869099084]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -176.0
+offset_top = 360.0
+offset_right = 184.0
+offset_bottom = 536.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Panel" type="Panel" parent="Panel/SingleScoreWrapper" unique_id=1907399558]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 87.0
+offset_right = 160.0
+offset_bottom = 159.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_d2146")
+
+[node name="subScore" type="Label" parent="Panel/SingleScoreWrapper/Panel" unique_id=1763932188]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = -17.0
+offset_bottom = 17.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+text = "0"
+
+[node name="Panel2" type="Panel" parent="Panel/SingleScoreWrapper" unique_id=511017108]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 88.0
+offset_right = 336.0
+offset_bottom = 160.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_sblrg")
+
+[node name="mag" type="Label" parent="Panel/SingleScoreWrapper/Panel2" unique_id=1139413707]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 8.0
+offset_top = -25.0
+offset_right = 29.0
+offset_bottom = 25.0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+text = "0"
+
+[node name="Label" type="Label" parent="Panel/SingleScoreWrapper" unique_id=568190548]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 85.0
+offset_right = 200.0
+offset_bottom = 152.0
+theme_override_colors/font_color = Color(0.7764706, 0.20784314, 0.22352941, 1)
+theme_override_colors/font_outline_color = Color(0.74282265, 0.55892533, 0.29919657, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 48
+text = "x"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MatchInfo" type="Button" parent="Panel" unique_id=2098725724]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = -224.0
+offset_right = 112.0
+offset_bottom = -126.0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_tfs1j")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vdxtb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_g7imm")
+text = "比赛
+信息"
+script = ExtResource("5_sblrg")
+
+[node name="Options" type="Button" parent="Panel" unique_id=1800998736]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = -120.0
+offset_right = 112.0
+offset_bottom = -22.0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_hp23f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_lqxii")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cgguf")
+text = "选项"
+script = ExtResource("5_sblrg")
+
+[connection signal="pressed" from="Panel/MatchInfo" to="." method="showMatchInfo"]
+[connection signal="pressed" from="Panel/Options" to="." method="showOptions"]
