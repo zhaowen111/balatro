@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://b2wb5ltudnv7d"]
 
-[ext_resource type="Script" uid="uid://crqscnq1pr13o" path="res://prefabs/button/button.gd" id="1_r04n3"]
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1w7y4"]
 content_margin_left = 16.0
 content_margin_top = 16.0
@@ -81,4 +79,3 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_vxd0w")
 theme_override_styles/disabled = SubResource("StyleBoxFlat_janqo")
 theme_override_styles/focus = SubResource("StyleBoxFlat_sbfn0")
 text = "开始游戏"
-script = ExtResource("1_r04n3")
