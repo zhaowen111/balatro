@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://xjqpf0ry0j50"]
+
+[ext_resource type="Script" uid="uid://b6lgmvuyo724f" path="res://container.gd" id="1_37kl0"]
+[ext_resource type="PackedScene" uid="uid://cs56m4h4jwixh" path="res://CardScene.tscn" id="2_8uh7m"]
+[ext_resource type="Script" uid="uid://crqscnq1pr13o" path="res://sprite2d.gd" id="3_6uqi0"]
+[ext_resource type="Texture2D" uid="uid://ku406i5kiy28" path="res://icon.svg" id="4_ppyta"]
+
+[node name="Test" type="Node2D" unique_id=605947979]
+
+[node name="Container" type="Node2D" parent="." unique_id=1624319653]
+position = Vector2(960, 540)
+script = ExtResource("1_37kl0")
+card_scene = ExtResource("2_8uh7m")
+
+[node name="Button" type="Button" parent="Container" unique_id=1938061740]
+offset_left = 880.0
+offset_top = -492.0
+offset_right = 976.0
+offset_bottom = -452.0
+text = "添加手牌"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2129250793]
+position = Vector2(976, 128)
+texture = ExtResource("4_ppyta")
+script = ExtResource("3_6uqi0")
+
+[connection signal="pressed" from="Container/Button" to="Container" method="add_card"]
+[connection signal="pressed" from="Container/Button" to="Sprite2D" method="_on_button_pressed"]

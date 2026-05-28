@@ -1,0 +1,149 @@
+[gd_scene format=3 uid="uid://cikl8i2o1dvbd"]
+
+[ext_resource type="Texture2D" uid="uid://bk3gtyhq067bi" path="res://sprites/BG.png" id="1_1w7y4"]
+[ext_resource type="Texture2D" uid="uid://cqe0pe75fqaso" path="res://sprites/balatro.png" id="2_0cpfv"]
+[ext_resource type="Theme" uid="uid://d3b0ocjudngmn" path="res://main_theme.tres" id="3_0cpfv"]
+[ext_resource type="StyleBox" uid="uid://cchhwrjv1gne5" path="res://ButtonStyle.tres" id="3_u56t6"]
+
+[sub_resource type="Theme" id="Theme_1w7y4"]
+
+[node name="Control" type="Control" unique_id=828706054]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = -576.0
+offset_bottom = -324.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_1w7y4")
+
+[node name="BG" type="TextureRect" parent="." unique_id=865285280]
+layout_mode = 0
+offset_top = -8.0
+offset_right = 1152.0
+offset_bottom = 656.0
+texture = ExtResource("1_1w7y4")
+expand_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="BG" unique_id=1151800782]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -688.0
+offset_top = -384.0
+offset_right = 688.0
+offset_bottom = 384.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+pivot_offset_ratio = Vector2(0.5, 0.5)
+
+[node name="title" type="TextureRect" parent="BG/CenterContainer" unique_id=2000784126]
+layout_mode = 2
+texture = ExtResource("2_0cpfv")
+
+[node name="Panel" type="Panel" parent="." unique_id=1402621891]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 58.0
+offset_top = 485.0
+offset_right = 178.0
+offset_bottom = 589.0
+grow_vertical = 0
+
+[node name="label" type="Label" parent="Panel" unique_id=2141773885]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.545
+anchor_right = 0.545
+offset_left = -35.4
+offset_top = 3.0
+offset_right = 28.599998
+offset_bottom = 48.0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "配置"
+
+[node name="Button" type="Button" parent="Panel" unique_id=1468012495]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -25.0
+offset_right = 42.0
+offset_bottom = 34.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = ExtResource("3_u56t6")
+text = "P1"
+
+[node name="Panel2" type="Panel" parent="." unique_id=944135552]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 504.0
+offset_right = 912.0
+offset_bottom = 600.0
+theme = SubResource("Theme_1w7y4")
+
+[node name="Button" type="Button" parent="Panel2" unique_id=951233777]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 16.76532
+offset_right = 176.0
+offset_bottom = 80.76532
+rotation = -0.0063775657
+theme = ExtResource("3_0cpfv")
+theme_type_variation = &"BlueButton"
+text = "开始游戏"
+
+[node name="Button2" type="Button" parent="Panel2" unique_id=1603892075]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 24.76532
+offset_right = 304.0
+offset_bottom = 72.76532
+theme_type_variation = &"OrangeButton"
+text = "选项"
+
+[node name="Button3" type="Button" parent="Panel2" unique_id=633433449]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 24.76532
+offset_right = 432.0
+offset_bottom = 72.76532
+theme_type_variation = &"RedButton"
+text = "退出"
+
+[node name="Button4" type="Button" parent="Panel2" unique_id=1457334498]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 16.76532
+offset_right = 592.0
+offset_bottom = 80.76532
+text = "收藏"
+
+[node name="Panel3" type="Panel" parent="." unique_id=1562434993]
+layout_mode = 0
+offset_left = 133.80003
+offset_top = 512.0
+offset_right = 133.80003
+offset_bottom = 712.0
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1630337478]
+layout_mode = 0
+offset_right = 304.0
+offset_bottom = 264.0
