@@ -5,10 +5,19 @@ extends Node
 @export var playCount = 0
 @export var discardCount = 0
 @export var coin = 0
-@export var ante = 1 #底注
+
+signal  anteChange(newAnte:int)
+@export var ante = 1: #底注
+	set(val):
+		anteChange.emit(val)
 @export var maxAnte = 8 #底注上限
 @export var turns = 0 #回合数
 
+
+
+
+@export var test1:Array[int] = []
+@export var test2:Dictionary = {}
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.

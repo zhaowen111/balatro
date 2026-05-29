@@ -1,0 +1,7 @@
+[gd_resource type="Resource" format=3 uid="uid://dfywouon0j6c3"]
+
+[ext_resource type="Script" uid="uid://caw0pgjynut4b" path="res://scenes/PlayerAssets.gd" id="1_o5mtx"]
+
+[resource]
+script = ExtResource("1_o5mtx")
+test1 = [300, 450, 600, 1000, 1500, 2250, 3000, 4500, 6000, 10000, 15000, 22500, 30000, 45000, 60000, 100000, 150000, 225000, 300000, 450000, 600000, 1000000, 1500000, 2250000]

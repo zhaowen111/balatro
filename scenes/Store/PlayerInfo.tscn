@@ -155,12 +155,18 @@ shadow_color = Color(0.080783345, 0.080783345, 0.080783345, 1)
 shadow_size = 4
 shadow_offset = Vector2(4, 4)
 
-[node name="PlayerInfo" type="Node2D" unique_id=585458930 node_paths=PackedStringArray("titleAnimation", "allScoreLabel", "subScoreLabel", "magLabel")]
+[node name="PlayerInfo" type="Node2D" unique_id=585458930 node_paths=PackedStringArray("titleAnimation", "allScoreLabel", "subScoreLabel", "magLabel", "playcardLabel", "discardLabel", "coinLabel", "anteLabel", "maxAnteLabel", "turnsLabel")]
 script = ExtResource("1_s2xv1")
 titleAnimation = NodePath("Panel/Title/AnimatedSprite2D")
 allScoreLabel = NodePath("Panel/AllScoreWrapper/Panel/allScore")
 subScoreLabel = NodePath("Panel/SingleScoreWrapper/Panel/subScore")
 magLabel = NodePath("Panel/SingleScoreWrapper/Panel2/mag")
+playcardLabel = NodePath("Panel/PlayCard/playcard")
+discardLabel = NodePath("Panel/DisCard/discard")
+coinLabel = NodePath("Panel/CoinWrapper/coins")
+anteLabel = NodePath("Panel/AnteWrapper/ante")
+maxAnteLabel = NodePath("Panel/AnteWrapper/maxAnte")
+turnsLabel = NodePath("Panel/TurnsWrapper/turns")
 
 [node name="Panel" type="Panel" parent="." unique_id=912251403]
 offset_top = -15.999999
@@ -270,19 +276,19 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -176.0
+offset_left = -186.49997
 offset_top = 360.0
-offset_right = 184.0
+offset_right = 189.49997
 offset_bottom = 536.0
 grow_horizontal = 2
 theme_override_styles/panel = ExtResource("3_d2146")
 
 [node name="Panel" type="Panel" parent="Panel/SingleScoreWrapper" unique_id=1907399558]
 layout_mode = 0
-offset_left = 24.0
-offset_top = 87.0
-offset_right = 160.0
-offset_bottom = 159.0
+offset_left = 5.749981
+offset_top = 87.5
+offset_right = 164.74995
+offset_bottom = 159.5
 theme_override_styles/panel = SubResource("StyleBoxFlat_d2146")
 
 [node name="subScore" type="Label" parent="Panel/SingleScoreWrapper/Panel" unique_id=1763932188]
@@ -302,10 +308,10 @@ text = "0"
 
 [node name="Panel2" type="Panel" parent="Panel/SingleScoreWrapper" unique_id=511017108]
 layout_mode = 0
-offset_left = 200.0
-offset_top = 88.0
-offset_right = 336.0
-offset_bottom = 160.0
+offset_left = 213.24997
+offset_top = 88.75
+offset_right = 368.49994
+offset_bottom = 160.75
 theme_override_styles/panel = SubResource("StyleBoxFlat_sblrg")
 
 [node name="mag" type="Label" parent="Panel/SingleScoreWrapper/Panel2" unique_id=1139413707]
@@ -323,9 +329,9 @@ text = "0"
 
 [node name="Label" type="Label" parent="Panel/SingleScoreWrapper" unique_id=568190548]
 layout_mode = 0
-offset_left = 160.0
+offset_left = 168.75002
 offset_top = 85.0
-offset_right = 200.0
+offset_right = 208.75002
 offset_bottom = 152.0
 theme_override_colors/font_color = Color(0.7764706, 0.20784314, 0.22352941, 1)
 theme_override_colors/font_outline_color = Color(0.74282265, 0.55892533, 0.29919657, 1)
@@ -340,10 +346,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 32.0
-offset_top = -224.0
-offset_right = 112.0
-offset_bottom = -126.0
+offset_left = 28.250011
+offset_top = -279.0
+offset_right = 128.25
+offset_bottom = -149.0
 grow_vertical = 0
 theme_override_styles/normal = SubResource("StyleBoxFlat_tfs1j")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_vdxtb")
@@ -357,16 +363,344 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 32.0
-offset_top = -120.0
-offset_right = 112.0
-offset_bottom = -22.0
+offset_left = 28.250008
+offset_top = -137.5
+offset_right = 128.25
+offset_bottom = -7.5
 grow_vertical = 0
 theme_override_styles/normal = SubResource("StyleBoxFlat_hp23f")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_lqxii")
 theme_override_styles/hover = SubResource("StyleBoxFlat_cgguf")
 text = "选项"
 script = ExtResource("5_sblrg")
+
+[node name="PlayCard" type="Panel" parent="Panel" unique_id=1730037037]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -67.999954
+offset_top = 540.0
+offset_right = 54.5
+offset_bottom = 632.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Panel" type="Panel" parent="Panel/PlayCard" unique_id=747868051]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.500008
+offset_top = -16.0
+offset_right = 38.500023
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/PlayCard" unique_id=100973416]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -49.5
+offset_right = 24.0
+offset_bottom = -15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/line_spacing = 0
+text = "出牌"
+
+[node name="playcard" type="Label" parent="Panel/PlayCard" unique_id=768626807]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -7.0
+offset_right = 24.0
+offset_bottom = 27.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0.53333336, 0.7764706, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 48
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DisCard" type="Panel" parent="Panel" unique_id=909997976]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 62.00003
+offset_top = 540.00006
+offset_right = 182.00003
+offset_bottom = 632.00006
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Panel" type="Panel" parent="Panel/DisCard" unique_id=1876685281]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.5
+offset_top = -16.0
+offset_right = 38.50003
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/DisCard" unique_id=526757789]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -49.5
+offset_right = 24.0
+offset_bottom = -15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/line_spacing = 0
+text = "弃牌"
+
+[node name="discard" type="Label" parent="Panel/DisCard" unique_id=1609845433]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -13.5
+offset_top = -23.5
+offset_right = 13.5
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.26666668, 0.23921569, 1)
+theme_override_font_sizes/font_size = 48
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CoinWrapper" type="Panel" parent="Panel" unique_id=1229202035]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -67.99991
+offset_top = 640.0
+offset_right = 182.0
+offset_bottom = 712.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+metadata/_edit_group_ = true
+
+[node name="Panel" type="Panel" parent="Panel/CoinWrapper" unique_id=503741280]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -101.24997
+offset_top = -24.0
+offset_right = 99.99994
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="coins" type="Label" parent="Panel/CoinWrapper" unique_id=1623527691]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -5.000046
+offset_top = -33.5
+offset_right = 21.999954
+offset_bottom = 33.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.8901961, 0.65882355, 0.23921569, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 48
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="Panel/CoinWrapper/coins" unique_id=2051444934]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -28.750015
+offset_top = -33.5
+offset_right = -1.7500153
+offset_bottom = 33.5
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.8901961, 0.65882355, 0.23921569, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 48
+text = "$"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnteWrapper" type="Panel" parent="Panel" unique_id=2106014483]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -66.749985
+offset_top = 720.0
+offset_right = 53.25
+offset_bottom = 812.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Panel" type="Panel" parent="Panel/AnteWrapper" unique_id=675252709]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.5
+offset_top = -16.0
+offset_right = 38.50003
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/AnteWrapper" unique_id=1362273532]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -49.5
+offset_right = 24.0
+offset_bottom = -15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/line_spacing = 0
+text = "底注"
+
+[node name="ante" type="Label" parent="Panel/AnteWrapper" unique_id=1903714487]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -31.250015
+offset_top = -23.5
+offset_right = -4.2500153
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.9411765, 0.5764706, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="maxAnte" type="Label" parent="Panel/AnteWrapper" unique_id=776824009]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 0.24999237
+offset_top = -23.5
+offset_right = 27.249992
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "/8"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TurnsWrapper" type="Panel" parent="Panel" unique_id=1321535445]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 59.50003
+offset_top = 718.75006
+offset_right = 179.50003
+offset_bottom = 810.75006
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("3_d2146")
+
+[node name="Panel" type="Panel" parent="Panel/TurnsWrapper" unique_id=485988016]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.5
+offset_top = -16.0
+offset_right = 38.50003
+offset_bottom = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel/TurnsWrapper" unique_id=1155743307]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -49.5
+offset_right = 24.0
+offset_bottom = -15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/line_spacing = 0
+text = "回合"
+
+[node name="turns" type="Label" parent="Panel/TurnsWrapper" unique_id=1787227150]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -13.5
+offset_top = -23.5
+offset_right = 13.5
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.95686275, 0.6509804, 0.2627451, 1)
+theme_override_font_sizes/font_size = 48
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="Panel/MatchInfo" to="." method="showMatchInfo"]
 [connection signal="pressed" from="Panel/Options" to="." method="showOptions"]
