@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://ckjlaubirbx3f"]
 
 [ext_resource type="Script" uid="uid://dojado80qn6wi" path="res://scenes/SelectBlind/selectBlind.gd" id="1_7oriu"]
+[ext_resource type="PackedScene" uid="uid://cpj61weyuwb31" path="res://scenes/Store/PlayerInfo.tscn" id="2_ah05t"]
 
 [node name="SelectBlind" type="Node2D" unique_id=1910953622]
 script = ExtResource("1_7oriu")
-currentBlindCount = null
-blindScoresDeck = [300, 450, 600, 1000, 1500, 2250, 3000, 4500, 6000, 10000, 15000, 22500, 30000, 45000, 60000, 100000, 150000, 225000, 300000, 450000, 600000, 1000000, 1500000, 2250000]
+
+[node name="PlayerInfo" parent="." unique_id=585458930 instance=ExtResource("2_ah05t")]
+
+[node name="HBoxContainer" type="Node" parent="." unique_id=563850370]

@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Godot",
+			"type": "godot",
+			"request": "launch",
+			// "projectPath": "${workspaceFolder}",  // 如果需要，可以取消注释这一行
+			// "executable": "/path/to/your/godot", // 如果需要手动指定Godot程序路径，可以取消注释并修改
+		}
+	]
+}

@@ -33,5 +33,5 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_sscer")
 
 [node name="CardTexture" type="TextureRect" parent="Panel" unique_id=811033783]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 142.0
+offset_bottom = 190.0

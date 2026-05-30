@@ -4,7 +4,7 @@
 
 [node name="Node2D" type="Node2D" unique_id=1559440060]
 script = ExtResource("1_bekgd")
-rotationWithMark = 15.0
+rotation_with_mark = 15.0
 
 [node name="CardContainer" type="Node2D" parent="." unique_id=1145579900]
 position = Vector2(576, 376)

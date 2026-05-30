@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://wq7ep612aybl"]
+
+[ext_resource type="Script" uid="uid://if7rdmcu6l5y" path="res://scenes/SelectBlind/Blind.gd" id="1_4h0to"]
+
+[node name="Blind" type="Node2D" unique_id=345632675]
+script = ExtResource("1_4h0to")
+
+[node name="title" type="Label" parent="." unique_id=1841524058]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "小盲注"
+
+[node name="score" type="Label" parent="." unique_id=1840022509]
+offset_left = 8.0
+offset_top = 32.0
+offset_right = 48.0
+offset_bottom = 55.0
+text = "300"
+
+[node name="award" type="Label" parent="." unique_id=1653270645]
+offset_left = 8.0
+offset_top = 72.0
+offset_right = 48.0
+offset_bottom = 95.0
+text = "3"
+
+[node name="select" type="Button" parent="." unique_id=2066946746]
+offset_left = 16.0
+offset_top = 120.0
+offset_right = 56.0
+offset_bottom = 151.0
+text = "选择"
+
+[node name="skip" type="Button" parent="." unique_id=1790411471]
+offset_left = 16.0
+offset_top = 176.0
+offset_right = 56.0
+offset_bottom = 207.0
+text = "跳过"
+
+[connection signal="pressed" from="select" to="." method="select"]
+[connection signal="pressed" from="skip" to="." method="skip"]

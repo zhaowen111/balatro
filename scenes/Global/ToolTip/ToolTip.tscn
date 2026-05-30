@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://delxl2atv3g0l"]
+
+[ext_resource type="Script" uid="uid://bq8lujm2iuus3" path="res://scenes/Global/ToolTip/tool_tip.gd" id="1_6hqlt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hnwuj"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.75670964, 0.55611753, 0.31489494, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_0dlew"]
+
+[node name="ToolTip" type="PanelContainer" unique_id=1491582266]
+theme_override_styles/panel = SubResource("StyleBoxFlat_hnwuj")
+script = ExtResource("1_6hqlt")
+
+[node name="message" type="Label" parent="." unique_id=1638800257]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+label_settings = SubResource("LabelSettings_0dlew")
+autowrap_mode = 2

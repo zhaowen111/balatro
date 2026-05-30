@@ -11,13 +11,20 @@ config_version=5
 [application]
 
 config/name="Balatro"
-run/main_scene="uid://d0se12nob7riy"
+run/main_scene="uid://ckjlaubirbx3f"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-PlayerAssets="*uid://caw0pgjynut4b"
+MyPlayerAssets="*uid://caw0pgjynut4b"
+ToolTip="*uid://delxl2atv3g0l"
+EffectExecutor="*res://scripts/effect_executor.gd"
+EventBus="*res://scripts/event_bus.gd"
+TagManager="*res://scripts/tag_manager.gd"
+JokerManager="*res://scripts/joker_manager.gd"
+StoreManager="*uid://huvorxhxabd4"
+TurnManager="*uid://lcfv45agaq2q"
 
 [physics]
 

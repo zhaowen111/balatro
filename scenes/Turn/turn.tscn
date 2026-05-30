@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bfnbni2ounrqr"]
+
+[ext_resource type="Script" uid="uid://bj2etaomeith6" path="res://scenes/Turn/turn.gd" id="1_jn3bx"]
+[ext_resource type="PackedScene" uid="uid://cpj61weyuwb31" path="res://scenes/Store/PlayerInfo.tscn" id="2_l2jfj"]
+
+[node name="Turn" type="Node2D" unique_id=1744803639]
+script = ExtResource("1_jn3bx")
+
+[node name="PlayerInfo" parent="." unique_id=585458930 instance=ExtResource("2_l2jfj")]
+
+[node name="score" type="Label" parent="." unique_id=1026027953]
+offset_left = 440.0
+offset_top = 24.0
+offset_right = 480.0
+offset_bottom = 47.0
+text = "300"
+
+[node name="start" type="Button" parent="." unique_id=2064193958]
+offset_left = 792.0
+offset_top = 104.0
+offset_right = 864.0
+offset_bottom = 135.0
+text = "开始回合"
+
+[node name="end" type="Button" parent="." unique_id=1272238295]
+offset_left = 792.0
+offset_top = 160.0
+offset_right = 864.0
+offset_bottom = 191.0
+text = "结束回合"
+
+[node name="handCount" type="Label" parent="." unique_id=251500839]
+offset_left = 800.0
+offset_top = 240.0
+offset_right = 864.0
+offset_bottom = 263.0
+text = "手牌数量"
+
+[connection signal="pressed" from="start" to="." method="startTurn"]
+[connection signal="pressed" from="end" to="." method="endTurn"]
