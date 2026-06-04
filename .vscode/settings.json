@@ -29,7 +29,7 @@
     "editor.guides.highlightActiveIndentation": true,
     "editor.renderWhitespace": "boundary",
     "editor.bracketPairColorization.enabled": true,
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,

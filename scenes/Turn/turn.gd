@@ -9,15 +9,13 @@ func _ready() -> void:
 signal startTurnSignal
 func startTurn() -> void:
 	MyPlayerAssets.turns += 1
-	var needTriggerEffects = MyPlayerAssets.willEffectDict.get(Effect.EffectType.ON_START_TURN)
-	for effect in needTriggerEffects:
-		effect.triggerEffect()
-	$handCount.text = str(MyPlayerAssets.maxHandCount)
+	TagManager.on_round_start()
 	startTurnSignal.emit()
 	
 
 signal endTurnSignal
 func endTurn() -> void:
+	TagManager.on_round_end()
 	var blind = SelectBlind.blinds[MyPlayerAssets.currentBlindCount];
 	MyPlayerAssets.coin += blind.award
 	if (blind.blindType == Blind.BlindType.boss):
@@ -31,3 +29,7 @@ func endTurn() -> void:
 func initTurn() -> void:
 	var blind = SelectBlind.blinds[MyPlayerAssets.currentBlindCount];
 	$score.text = str(blind.score)
+	$handCount.text = str(MyPlayerAssets.maxHandCount)
+	MyPlayerAssets.maxHandCountChange.connect(updateHandCount)
+func updateHandCount(newHandCount: int) -> void:
+	$handCount.text = str(newHandCount)

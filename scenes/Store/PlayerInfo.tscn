@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://bbbt5w6bjgwp5" path="res://scenes/Store/player_info.gd" id="1_s2xv1"]
 [ext_resource type="StyleBox" uid="uid://dboy7j6jgljd2" path="res://scenes/Store/panel.tres" id="3_d2146"]
 [ext_resource type="Texture2D" uid="uid://c2su0mof54n3t" path="res://scenes/Store/chipAtlas.atlastex" id="4_d2146"]
-[ext_resource type="Script" uid="uid://55um5tt54my8" path="res://scripts/MyBaseButton.gd" id="5_sblrg"]
+[ext_resource type="Script" uid="uid://55um5tt54my8" path="res://scenes/utils/MyBaseButton.gd" id="5_sblrg"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_by5di"]
 bg_color = Color(0.16862746, 0.21568628, 0.23921569, 1)
@@ -702,5 +702,5 @@ text = "3"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[connection signal="pressed" from="Panel/MatchInfo" to="." method="showMatchInfo"]
-[connection signal="pressed" from="Panel/Options" to="." method="showOptions"]
+[connection signal="pressed" from="Panel/MatchInfo" to="." method="show_match_info"]
+[connection signal="pressed" from="Panel/Options" to="." method="show_options"]

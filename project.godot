@@ -19,12 +19,14 @@ config/icon="res://icon.svg"
 
 MyPlayerAssets="*uid://caw0pgjynut4b"
 ToolTip="*uid://delxl2atv3g0l"
-EffectExecutor="*res://scripts/effect_executor.gd"
-EventBus="*res://scripts/event_bus.gd"
-TagManager="*res://scripts/tag_manager.gd"
-JokerManager="*res://scripts/joker_manager.gd"
+EffectExecutor="*res://scripts/systems/effect_executor.gd"
+EventBus="*res://scripts/autoload/event_bus.gd"
+TagManager="*res://scripts/systems/tag_manager.gd"
+JokerManager="*res://scripts/systems/joker_manager.gd"
 StoreManager="*uid://huvorxhxabd4"
 TurnManager="*uid://lcfv45agaq2q"
+BlindManager="*uid://0kq5075oi5r4"
+CardManager="*uid://j7uoqohpi010"
 
 [physics]
 

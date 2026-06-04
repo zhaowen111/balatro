@@ -1,0 +1,198 @@
+[
+	{
+		"zh_name": "钩子",
+		"en_name": "The Hook",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "每次出牌后，随机弃两张牌（可以触发弃牌相关效果）。[reference:0]"
+	},
+	{
+		"zh_name": "公牛",
+		"en_name": "The Ox",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "打出你最常使用的牌型时，金钱归零。[reference:1]"
+	},
+	{
+		"zh_name": "房屋",
+		"en_name": "The House",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "起手牌全部背面朝上。[reference:2]"
+	},
+	{
+		"zh_name": "围墙",
+		"en_name": "The Wall",
+		"reward_gold": 5,
+		"score_multiplier": 4,
+		"description": "目标分数是其他Boss盲注的两倍。[reference:3]"
+	},
+	{
+		"zh_name": "车轮",
+		"en_name": "The Wheel",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "每张牌有1/7的概率背面朝上。[reference:4]"
+	},
+	{
+		"zh_name": "手臂",
+		"en_name": "The Arm",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "打出任意牌型时，永久降低其1级。[reference:5]"
+	},
+	{
+		"zh_name": "梅花",
+		"en_name": "The Club",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有梅花牌均不计分。[reference:6]"
+	},
+	{
+		"zh_name": "挑衅",
+		"en_name": "The Goad",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有黑桃牌均不计分。[reference:7]"
+	},
+	{
+		"zh_name": "窗口",
+		"en_name": "The Window",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有方片牌均不计分。[reference:8]"
+	},
+	{
+		"zh_name": "头部",
+		"en_name": "The Head",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有红桃牌均不计分。[reference:9]"
+	},
+	{
+		"zh_name": "鱼",
+		"en_name": "The Fish",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "每次出牌后，新抽到的牌背面朝上。[reference:10]"
+	},
+	{
+		"zh_name": "灵媒",
+		"en_name": "The Psychic",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "必须打出5张牌的牌型。[reference:11]"
+	},
+	{
+		"zh_name": "镣铐",
+		"en_name": "The Manacle",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本回合手牌上限-1。[reference:12]"
+	},
+	{
+		"zh_name": "眼睛",
+		"en_name": "The Eye",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本回合不能打出同样的牌型。[reference:13]"
+	},
+	{
+		"zh_name": "嘴巴",
+		"en_name": "The Mouth",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本回合只能打出一种牌型。[reference:14]"
+	},
+	{
+		"zh_name": "水",
+		"en_name": "The Water",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本回合没有弃牌机会。[reference:15]"
+	},
+	{
+		"zh_name": "植物",
+		"en_name": "The Plant",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有人头牌均不计分。[reference:16]"
+	},
+	{
+		"zh_name": "巨蟒",
+		"en_name": "The Serpent",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "每次出牌或弃牌后，固定抽取三张牌。[reference:17]"
+	},
+	{
+		"zh_name": "支柱",
+		"en_name": "The Pillar",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本次底注中，打前两个盲注时用过的所有牌均不计分。[reference:18]"
+	},
+	{
+		"zh_name": "针",
+		"en_name": "The Needle",
+		"reward_gold": 5,
+		"score_multiplier": 1,
+		"description": "只能出一次牌。[reference:19]"
+	},
+	{
+		"zh_name": "牙齿",
+		"en_name": "The Tooth",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "每打出一张牌（不论是否计分）失去$1。[reference:20]"
+	},
+	{
+		"zh_name": "燧石",
+		"en_name": "The Flint",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "本回合所有牌型的基础筹码和倍率减半。[reference:21]"
+	},
+	{
+		"zh_name": "标记",
+		"en_name": "The Mark",
+		"reward_gold": 5,
+		"score_multiplier": 2,
+		"description": "所有人头牌背面朝上。[reference:22]"
+	},
+	{
+		"zh_name": "琥珀橡果",
+		"en_name": "Amber Acorn",
+		"reward_gold": 8,
+		"score_multiplier": 2,
+		"description": "你的小丑牌全部背面朝上，且顺序被打乱。[reference:23]"
+	},
+	{
+		"zh_name": "绿叶",
+		"en_name": "Verdant Leaf",
+		"reward_gold": 8,
+		"score_multiplier": 2,
+		"description": "除非你卖掉一张小丑牌，否则所有牌不计分。[reference:24]"
+	},
+	{
+		"zh_name": "紫罗兰杯",
+		"en_name": "Violet Vessel",
+		"reward_gold": 8,
+		"score_multiplier": 6,
+		"description": "目标分数是其他Boss盲注的三倍。[reference:25]"
+	},
+	{
+		"zh_name": "绯红之心",
+		"en_name": "Crimson Heart",
+		"reward_gold": 8,
+		"score_multiplier": 2,
+		"description": "每次出牌时随机禁用一张小丑牌。[reference:26]"
+	},
+	{
+		"zh_name": "蔚蓝钟铃",
+		"en_name": "Cerulean Bell",
+		"reward_gold": 8,
+		"score_multiplier": 2,
+		"description": "随机强制选中一张牌，选中的牌必须打出或弃置，之后立刻重新选中另一张。[reference:27]"
+	}
+]

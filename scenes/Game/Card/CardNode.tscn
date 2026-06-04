@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cs56m4h4jwixh"]
+
+[ext_resource type="Script" uid="uid://bqhnjorihoro3" path="res://scenes/Game/Card/CardNode.gd" id="1_4qpqy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ikn0l"]
+bg_color = Color(1, 1, 1, 1)
+shadow_size = 4
+shadow_offset = Vector2(4, 4)
+
+[node name="Panel" type="PanelContainer" unique_id=427433270]
+offset_right = 142.0
+offset_bottom = 190.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ikn0l")
+script = ExtResource("1_4qpqy")
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=432238550]
+layout_mode = 2
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

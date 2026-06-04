@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dda3gloicthhe"]
+
+[node name="PlayCard" type="Node2D" unique_id=1961426033]
+
+[node name="CardContainer" type="Node2D" parent="." unique_id=1433459936]
+position = Vector2(576, 512)
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=1719896799]
+position = Vector2(576, 896)
