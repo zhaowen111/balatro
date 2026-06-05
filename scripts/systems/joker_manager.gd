@@ -26,6 +26,14 @@ func get_definition_by_en_name(en_name: String) -> Dictionary:
 			return definition
 	return {}
 
+
+## 是否已装备指定 en_name 的小丑
+func has_joker(en_name: String) -> bool:
+	for instance in equipped_jokers:
+		if instance.en_name == en_name:
+			return true
+	return false
+
 ## 装备小丑并应用 PASSIVE_STAT 被动效果
 func equip_joker(en_name: String) -> JokerInstance:
 	var definition := get_definition_by_en_name(en_name)

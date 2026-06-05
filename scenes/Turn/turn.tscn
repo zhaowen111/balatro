@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://bfnbni2ounrqr"]
 
 [ext_resource type="Script" uid="uid://bj2etaomeith6" path="res://scenes/Turn/turn.gd" id="1_jn3bx"]
+[ext_resource type="PackedScene" uid="uid://d0se12nob7riy" path="res://scenes/Turn/PlayCard.tscn" id="2_fpjt0"]
 [ext_resource type="PackedScene" uid="uid://cpj61weyuwb31" path="res://scenes/Store/PlayerInfo.tscn" id="2_l2jfj"]
 
 [node name="Turn" type="Node2D" unique_id=1744803639]
 script = ExtResource("1_jn3bx")
+
+[node name="PlayCard" parent="." unique_id=1559440060 instance=ExtResource("2_fpjt0")]
+position = Vector2(115, 0)
 
 [node name="PlayerInfo" parent="." unique_id=585458930 instance=ExtResource("2_l2jfj")]
 
@@ -15,26 +19,18 @@ offset_right = 480.0
 offset_bottom = 47.0
 text = "300"
 
-[node name="start" type="Button" parent="." unique_id=2064193958]
-offset_left = 792.0
-offset_top = 104.0
-offset_right = 864.0
-offset_bottom = 135.0
-text = "开始回合"
-
-[node name="end" type="Button" parent="." unique_id=1272238295]
-offset_left = 792.0
-offset_top = 160.0
-offset_right = 864.0
-offset_bottom = 191.0
-text = "结束回合"
+[node name="Label" type="Label" parent="." unique_id=81279627]
+offset_left = 1011.0
+offset_top = 76.0
+offset_right = 1075.0
+offset_bottom = 99.0
+text = "手牌数量:"
 
 [node name="handCount" type="Label" parent="." unique_id=251500839]
-offset_left = 800.0
-offset_top = 240.0
-offset_right = 864.0
-offset_bottom = 263.0
-text = "手牌数量"
+offset_left = 1092.0
+offset_top = 76.0
+offset_right = 1161.0
+offset_bottom = 99.0
+text = "0"
 
-[connection signal="pressed" from="start" to="." method="startTurn"]
-[connection signal="pressed" from="end" to="." method="endTurn"]
+[connection signal="playCardSignal" from="PlayCard" to="." method="onPlayCard"]

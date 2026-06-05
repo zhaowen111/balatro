@@ -19,13 +19,13 @@ signal magChange(newMag: int)
 		mag = val
 
 signal playCountChange(newPlayCount: int)
-@export var playCount = 0:
+@export var playCount = 3:
 	set(val):
 		playCountChange.emit(val)
 		playCount = val
 
 signal discardCountChange(newDiscardCount: int)
-@export var discardCount = 0:
+@export var discardCount = 3:
 	set(val):
 		discardCountChange.emit(val)
 		discardCount = val

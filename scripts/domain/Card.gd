@@ -66,3 +66,7 @@ func random_card_type() -> void:
 	else:
 		strenthType = StrenthType.None
 		specialType = SpecialType.None
+
+
+func _to_string() -> String:
+	return "%s%s" % [rank, suit]

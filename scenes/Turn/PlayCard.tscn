@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://d0se12nob7riy"]
+
+[ext_resource type="Script" uid="uid://btm133av1xbm0" path="res://scenes/Turn/play_card.gd" id="1_7fjw2"]
+
+[node name="Node2D" type="Node2D" unique_id=1559440060]
+script = ExtResource("1_7fjw2")
+
+[node name="CardContainer" type="Node2D" parent="." unique_id=1145579900]
+position = Vector2(576, 376)
+
+[node name="playCard" type="Button" parent="." unique_id=1288226422]
+offset_left = 848.0
+offset_top = 175.0
+offset_right = 1032.0
+offset_bottom = 215.0
+text = "出牌"
+
+[node name="discard" type="Button" parent="." unique_id=988749510]
+offset_left = 848.0
+offset_top = 251.0
+offset_right = 1032.0
+offset_bottom = 291.0
+text = "弃牌"
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=2094062747]
+position = Vector2(576, 1168)
+
+[connection signal="pressed" from="playCard" to="." method="play_card"]
+[connection signal="pressed" from="discard" to="." method="discard_card"]
