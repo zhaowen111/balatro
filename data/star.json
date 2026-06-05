@@ -1,73 +1,73 @@
 [
 	{
-		"name_en": "Mercury",
-		"name_zh": "水星",
+		"en_name": "Mercury",
+		"zh_name": "水星",
 		"description": "等级提升对子（Pair），+1倍率，+15筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Venus",
-		"name_zh": "金星",
+		"en_name": "Venus",
+		"zh_name": "金星",
 		"description": "等级提升三条（Three of a Kind），+2倍率，+20筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Earth",
-		"name_zh": "地球",
+		"en_name": "Earth",
+		"zh_name": "地球",
 		"description": "等级提升葫芦（Full House），+2倍率，+25筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Mars",
-		"name_zh": "火星",
+		"en_name": "Mars",
+		"zh_name": "火星",
 		"description": "等级提升四条（Four of a Kind），+3倍率，+30筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Jupiter",
-		"name_zh": "木星",
+		"en_name": "Jupiter",
+		"zh_name": "木星",
 		"description": "等级提升同花（Flush），+2倍率，+15筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Saturn",
-		"name_zh": "土星",
+		"en_name": "Saturn",
+		"zh_name": "土星",
 		"description": "等级提升顺子（Straight），+2倍率，+30筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Uranus",
-		"name_zh": "天王星",
+		"en_name": "Uranus",
+		"zh_name": "天王星",
 		"description": "等级提升两对（Two Pair），+1倍率，+20筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Neptune",
-		"name_zh": "海王星",
+		"en_name": "Neptune",
+		"zh_name": "海王星",
 		"description": "等级提升同花顺（Straight Flush），+3倍率，+40筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Pluto",
-		"name_zh": "冥王星",
+		"en_name": "Pluto",
+		"zh_name": "冥王星",
 		"description": "等级提升高牌（High Card），+1倍率，+10筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Planet X",
-		"name_zh": "X行星",
+		"en_name": "Planet X",
+		"zh_name": "X行星",
 		"description": "等级提升五条（Five of a Kind），+3倍率，+35筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Ceres",
-		"name_zh": "谷神星",
+		"en_name": "Ceres",
+		"zh_name": "谷神星",
 		"description": "等级提升同花葫芦（Flush House），+4倍率，+40筹码",
 		"price": 3
 	},
 	{
-		"name_en": "Eris",
-		"name_zh": "阋神星",
+		"en_name": "Eris",
+		"zh_name": "阋神星",
 		"description": "等级提升同花五条（Flush Five），+3倍率，+50筹码",
 		"price": 3
 	}

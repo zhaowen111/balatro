@@ -10,14 +10,14 @@ position = Vector2(0, 14)
 [node name="Joker" type="PanelContainer" parent="." unique_id=639016481]
 offset_left = 353.0
 offset_top = 30.0
-offset_right = 857.0
+offset_right = 789.0
 offset_bottom = 210.0
 
 [node name="Consume" type="PanelContainer" parent="." unique_id=837789541]
-offset_left = 801.0
-offset_top = 26.0
+offset_left = 830.0
+offset_top = 30.0
 offset_right = 1143.0
-offset_bottom = 228.0
+offset_bottom = 207.0
 
 [node name="StoreCards" type="PanelContainer" parent="." unique_id=1414901080]
 offset_left = 552.0

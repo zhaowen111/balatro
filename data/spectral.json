@@ -1,109 +1,109 @@
 [
 	{
-		"name_en": "Familiar",
-		"name_zh": "熟知",
+		"en_name": "Familiar",
+		"zh_name": "熟知",
 		"description": "随机摧毁1张手牌，并添加3张随机增强版人头牌到手牌中",
 		"price": 6
 	},
 	{
-		"name_en": "Grim",
-		"name_zh": "严峻",
+		"en_name": "Grim",
+		"zh_name": "严峻",
 		"description": "随机摧毁1张手牌，并添加2张随机增强版A到手牌中",
 		"price": 6
 	},
 	{
-		"name_en": "Incantation",
-		"name_zh": "咒语",
+		"en_name": "Incantation",
+		"zh_name": "咒语",
 		"description": "随机摧毁1张手牌，并添加4张随机增强版数字牌到手牌中",
 		"price": 6
 	},
 	{
-		"name_en": "Talisman",
-		"name_zh": "护身符",
+		"en_name": "Talisman",
+		"zh_name": "护身符",
 		"description": "使1张卡牌变为幸运牌（1/5概率+20倍率，1/15概率+20$）",
 		"price": 6
 	},
 	{
-		"name_en": "Aura",
-		"name_zh": "灵光",
+		"en_name": "Aura",
+		"zh_name": "灵光",
 		"description": "为1张卡牌添加闪箔/镭射/多彩特效之一",
 		"price": 6
 	},
 	{
-		"name_en": "Wraith",
-		"name_zh": "幽灵",
+		"en_name": "Wraith",
+		"zh_name": "幽灵",
 		"description": "生成1张随机小丑牌，但消耗所有金钱",
 		"price": 6
 	},
 	{
-		"name_en": "Sigil",
-		"name_zh": "印记",
+		"en_name": "Sigil",
+		"zh_name": "印记",
 		"description": "将手牌中所有卡牌的花色转换为同一花色",
 		"price": 6
 	},
 	{
-		"name_en": "Ouija",
-		"name_zh": "灵应盘",
+		"en_name": "Ouija",
+		"zh_name": "灵应盘",
 		"description": "将手牌中所有卡牌的点数转换为同一点数",
 		"price": 6
 	},
 	{
-		"name_en": "Ectoplasm",
-		"name_zh": "灵质",
+		"en_name": "Ectoplasm",
+		"zh_name": "灵质",
 		"description": "为1张随机小丑牌添加负片版本，但减少1个小丑槽位",
 		"price": 6
 	},
 	{
-		"name_en": "Hex",
-		"name_zh": "魔咒",
+		"en_name": "Hex",
+		"zh_name": "魔咒",
 		"description": "摧毁所有小丑牌，并为剩余每张添加多彩特效",
 		"price": 6
 	},
 	{
-		"name_en": "Trance",
-		"name_zh": "恍惚",
+		"en_name": "Trance",
+		"zh_name": "恍惚",
 		"description": "将1张卡牌变为玻璃牌（×2倍率，1/4概率自毁）",
 		"price": 6
 	},
 	{
-		"name_en": "Medium",
-		"name_zh": "灵媒",
+		"en_name": "Medium",
+		"zh_name": "灵媒",
 		"description": "将1张卡牌变为钢铁牌（持有时+1.5倍率）",
 		"price": 6
 	},
 	{
-		"name_en": "Cryptid",
-		"name_zh": "神秘生物",
+		"en_name": "Cryptid",
+		"zh_name": "神秘生物",
 		"description": "复制1张手牌，复制品将具有相同点数、花色的属性效果",
 		"price": 6
 	},
 	{
-		"name_en": "Soul",
-		"name_zh": "灵魂",
+		"en_name": "Soul",
+		"zh_name": "灵魂",
 		"description": "生成传奇小丑牌",
 		"price": 6
 	},
 	{
-		"name_en": "Black Hole",
-		"name_zh": "黑洞",
+		"en_name": "Black Hole",
+		"zh_name": "黑洞",
 		"description": "升级所有牌型（每张星球牌可触发其效果）",
 		"price": 6
 	},
 	{
-		"name_en": "Deja Vu",
-		"name_zh": "既视感",
+		"en_name": "Deja Vu",
+		"zh_name": "既视感",
 		"description": "复制1张手牌（与原牌完全相同）",
 		"price": 6
 	},
 	{
-		"name_en": "Seance",
-		"name_zh": "降灵",
+		"en_name": "Seance",
+		"zh_name": "降灵",
 		"description": "复制1张弃牌堆中的牌加入手牌",
 		"price": 6
 	},
 	{
-		"name_en": "Resurrection",
-		"name_zh": "复活",
+		"en_name": "Resurrection",
+		"zh_name": "复活",
 		"description": "将弃牌堆中的所有卡牌移回手牌",
 		"price": 6
 	}

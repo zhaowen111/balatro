@@ -1,8 +1,10 @@
 [
 	{
+		"id": "000",
 		"zh_name": "小丑",
 		"en_name": "Joker",
 		"price": 2,
+		"rarity": 0,
 		"description": "+4倍率",
 		"abilities": [
 			{
@@ -18,15 +20,19 @@
 		]
 	},
 	{
+		"id": "001",
 		"zh_name": "混沌小丑",
 		"en_name": "Chaos the Clown",
 		"price": 4,
+		"rarity": 0,
 		"description": "每回合一次免费重随"
 	},
 	{
+		"id": "002",
 		"zh_name": "欢乐小丑",
 		"en_name": "Jolly Joker",
 		"price": 3,
+		"rarity": 0,
 		"description": "出牌包含一对时，+8倍率",
 		"abilities": [
 			{
@@ -47,69 +53,91 @@
 		]
 	},
 	{
+		"id": "003",
 		"zh_name": "滑稽小丑",
 		"en_name": "Zany Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含三条时，+12倍率"
 	},
 	{
+		"id": "004",
 		"zh_name": "疯小丑",
 		"en_name": "Mad Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含四条时，+20倍率"
 	},
 	{
+		"id": "005",
 		"zh_name": "狂小丑",
 		"en_name": "Crazy Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含顺子时，+12倍率"
 	},
 	{
+		"id": "006",
 		"zh_name": "滑稽小丑",
 		"en_name": "Droll Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含同花时，+10倍率"
 	},
 	{
+		"id": "007",
 		"zh_name": "狡猾小丑",
 		"en_name": "Sly Joker",
 		"price": 3,
+		"rarity": 0,
 		"description": "出牌包含一对时，+50筹码"
 	},
 	{
+		"id": "008",
 		"zh_name": "机智小丑",
 		"en_name": "Wily Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含三条时，+100筹码"
 	},
 	{
+		"id": "009",
 		"zh_name": "聪明小丑",
 		"en_name": "Clever Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含四条时，+150筹码"
 	},
 	{
+		"id": "010",
 		"zh_name": "狡诈小丑",
 		"en_name": "Devious Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含顺子时，+100筹码"
 	},
 	{
+		"id": "011",
 		"zh_name": "精巧小丑",
 		"en_name": "Crafty Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出牌包含同花时，+80筹码"
 	},
 	{
+		"id": "012",
 		"zh_name": "半张小丑",
 		"en_name": "Half Joker",
 		"price": 5,
+		"rarity": 0,
 		"description": "出牌少于等于3张时，+20倍率"
 	},
 	{
+		"id": "013",
 		"zh_name": "戏法师",
 		"en_name": "Juggler",
 		"price": 4,
+		"rarity": 0,
 		"description": "手牌上限+2",
 		"abilities": [
 			{
@@ -127,27 +155,35 @@
 		]
 	},
 	{
+		"id": "014",
 		"zh_name": "酒鬼",
 		"en_name": "Drunkard",
 		"price": 4,
+		"rarity": 0,
 		"description": "弃牌次数+1"
 	},
 	{
+		"id": "015",
 		"zh_name": "哑剧",
 		"en_name": "Mime",
 		"price": 5,
+		"rarity": 1,
 		"description": "手牌中卡牌的效果触发两次"
 	},
 	{
+		"id": "016",
 		"zh_name": "信用卡",
 		"en_name": "Credit Card",
 		"price": 1,
+		"rarity": 0,
 		"description": "允许负债至-20"
 	},
 	{
+		"id": "017",
 		"zh_name": "贪婪小丑",
 		"en_name": "Greedy Joker",
 		"price": 5,
+		"rarity": 0,
 		"description": "每张计分的方片牌提供+3倍率",
 		"abilities": [
 			{
@@ -168,57 +204,75 @@
 		]
 	},
 	{
+		"id": "018",
 		"zh_name": "色欲小丑",
 		"en_name": "Lusty Joker",
 		"price": 5,
+		"rarity": 0,
 		"description": "每张计分的红桃牌提供+3倍率"
 	},
 	{
+		"id": "019",
 		"zh_name": "暴怒小丑",
 		"en_name": "Wrathful Joker",
 		"price": 5,
+		"rarity": 0,
 		"description": "每张计分的黑桃牌提供+3倍率"
 	},
 	{
+		"id": "020",
 		"zh_name": "暴食小丑",
 		"en_name": "Gluttonous Joker",
 		"price": 5,
+		"rarity": 0,
 		"description": "每张计分的梅花牌提供+3倍率"
 	},
 	{
+		"id": "021",
 		"zh_name": "游吟诗人",
 		"en_name": "Troubadour",
 		"price": 6,
+		"rarity": 1,
 		"description": "+2手牌上限，每回合出牌次数-1"
 	},
 	{
+		"id": "022",
 		"zh_name": "旗帜",
 		"en_name": "Banner",
 		"price": 5,
+		"rarity": 0,
 		"description": "每剩余一个弃牌次数+20筹码"
 	},
 	{
+		"id": "023",
 		"zh_name": "神秘峰顶",
 		"en_name": "Mystic Summit",
 		"price": 5,
+		"rarity": 0,
 		"description": "剩余0弃牌次数时，+15倍率"
 	},
 	{
+		"id": "024",
 		"zh_name": "错版印刷",
 		"en_name": "Misprint",
 		"price": 4,
+		"rarity": 0,
 		"description": "随机+0到+23倍率"
 	},
 	{
+		"id": "025",
 		"zh_name": "钢制小丑",
 		"en_name": "Steel Joker",
 		"price": 7,
+		"rarity": 1,
 		"description": "手中每张钢制牌提供+10倍率（按牌组计算）"
 	},
 	{
+		"id": "026",
 		"zh_name": "金质小丑",
 		"en_name": "Golden Joker",
 		"price": 6,
+		"rarity": 0,
 		"description": "每回合结束时获得$4",
 		"abilities": [
 			{
@@ -234,627 +288,835 @@
 		]
 	},
 	{
+		"id": "027",
 		"zh_name": "恐怖面容",
 		"en_name": "Scary Face",
 		"price": 4,
+		"rarity": 0,
 		"description": "计分的人头牌给予+30筹码"
 	},
 	{
+		"id": "028",
 		"zh_name": "抽象小丑",
 		"en_name": "Abstract Joker",
 		"price": 4,
+		"rarity": 0,
 		"description": "每拥有一张小丑牌，+2倍率"
 	},
 	{
+		"id": "029",
 		"zh_name": "延迟收获",
 		"en_name": "Delayed Gratification",
 		"price": 4,
+		"rarity": 0,
 		"description": "本回合未使用弃牌，每个弃牌次数提供$2"
 	},
 	{
+		"id": "030",
 		"zh_name": "超新星",
 		"en_name": "Supernova",
 		"price": 5,
+		"rarity": 0,
 		"description": "手牌类型的出牌次数转换为倍率"
 	},
 	{
+		"id": "031",
 		"zh_name": "冰激凌",
 		"en_name": "Ice Cream",
 		"price": 5,
+		"rarity": 0,
 		"description": "起始+100筹码，每回合-5筹码"
 	},
 	{
+		"id": "032",
 		"zh_name": "双人份",
 		"en_name": "The Duo",
 		"price": 8,
+		"rarity": 2,
 		"description": "若出牌牌型包含对子，x2倍率"
 	},
 	{
+		"id": "033",
 		"zh_name": "三人组",
 		"en_name": "The Trio",
 		"price": 8,
+		"rarity": 2,
 		"description": "若出牌牌型包含三条，x3倍率"
 	},
 	{
+		"id": "034",
 		"zh_name": "四口之家",
 		"en_name": "The Family",
 		"price": 8,
+		"rarity": 2,
 		"description": "若出牌牌型包含四条，x4倍率"
 	},
 	{
+		"id": "035",
 		"zh_name": "暴怒",
 		"en_name": "The Idol",
 		"price": 6,
+		"rarity": 1,
 		"description": "每打出特定的一张牌，x2倍率（每轮变化）"
 	},
 	{
+		"id": "036",
 		"zh_name": "破旧小丑",
 		"en_name": "Junker",
 		"price": 4,
+		"rarity": 0,
 		"description": "出售价值+4，每回合结束+1"
 	},
 	{
+		"id": "037",
 		"zh_name": "爆米花",
 		"en_name": "Popcorn",
 		"price": 5,
+		"rarity": 0,
 		"description": "起始+20倍率，每回合-4倍率"
 	},
 	{
+		"id": "038",
 		"zh_name": "积点卡",
 		"en_name": "To Do List",
 		"price": 4,
+		"rarity": 0,
 		"description": "按特定手牌类型赢得回合后，+$4"
 	},
 	{
+		"id": "039",
 		"zh_name": "贺卡",
 		"en_name": "Gift Card",
 		"price": 6,
+		"rarity": 1,
 		"description": "每回合结束时，随机小丑牌出售价值+1"
 	},
 	{
+		"id": "040",
 		"zh_name": "霉运符",
 		"en_name": "Fortune Teller",
 		"price": 6,
+		"rarity": 0,
 		"description": "本局游戏每使用一张塔罗牌，+1倍率"
 	},
 	{
+		"id": "041",
 		"zh_name": "贴纸",
 		"en_name": "Sticker",
 		"price": 6,
+		"rarity": 1,
 		"description": "打出对子时，+100筹码，x1.5倍率"
 	},
 	{
+		"id": "042",
 		"zh_name": "中奖彩票",
 		"en_name": "Lottery Ticket",
 		"price": 4,
+		"rarity": 0,
 		"description": "计分包含幸运牌时，有几率获得$10"
 	},
 	{
+		"id": "043",
 		"zh_name": "装饰橱窗",
 		"en_name": "Showman",
 		"price": 5,
+		"rarity": 1,
 		"description": "允许在商店中出现重复卡牌"
 	},
 	{
+		"id": "044",
 		"zh_name": "马戏团",
 		"en_name": "Circus",
 		"price": 4,
+		"rarity": 0,
 		"description": "手牌包含5张牌时，+100筹码，x1.5倍率"
 	},
 	{
+		"id": "045",
 		"zh_name": "龙舌兰",
 		"en_name": "Tequila",
 		"price": 5,
+		"rarity": 0,
 		"description": "打出顺子时，+80筹码，+8倍率"
 	},
 	{
+		"id": "046",
 		"zh_name": "尖刺",
 		"en_name": "Spike",
 		"price": 5,
+		"rarity": 0,
 		"description": "每剩余一次弃牌，+20筹码"
 	},
 	{
+		"id": "047",
 		"zh_name": "模板小丑",
 		"en_name": "Joker Stencil",
 		"price": 8,
+		"rarity": 1,
 		"description": "每空一个小丑槽位，x1倍率（计算自身）"
 	},
 	{
+		"id": "048",
 		"zh_name": "四指",
 		"en_name": "Four Fingers",
 		"price": 7,
+		"rarity": 1,
 		"description": "所有同花和顺子可由4张牌组成"
 	},
 	{
+		"id": "049",
 		"zh_name": "蓝图",
 		"en_name": "Blueprint",
 		"price": 10,
+		"rarity": 2,
 		"description": "复制右侧小丑的效果"
 	},
 	{
+		"id": "050",
 		"zh_name": "脑力风暴",
 		"en_name": "Brainstorm",
 		"price": 10,
+		"rarity": 2,
 		"description": "复制最左侧小丑的效果"
 	},
 	{
+		"id": "051",
 		"zh_name": "斗牛士",
 		"en_name": "Matador",
 		"price": 7,
+		"rarity": 1,
 		"description": "触发Boss盲注能力时，赚取$10"
 	},
 	{
+		"id": "052",
 		"zh_name": "仪式匕首",
 		"en_name": "Ceremonial Dagger",
 		"price": 6,
+		"rarity": 1,
 		"description": "选择盲注后，摧毁右侧小丑，将其出售价值加入倍率"
 	},
 	{
+		"id": "053",
 		"zh_name": "花盆",
 		"en_name": "Flower Pot",
 		"price": 6,
+		"rarity": 1,
 		"description": "若出牌包含四种花色，x3倍率"
 	},
 	{
+		"id": "054",
 		"zh_name": "哎呀！全是六点",
 		"en_name": "Oops! All 6s",
 		"price": 4,
+		"rarity": 1,
 		"description": "将所有概率翻倍"
 	},
 	{
+		"id": "055",
 		"zh_name": "烧焦的小丑",
 		"en_name": "Burnt Joker",
 		"price": 8,
+		"rarity": 2,
 		"description": "每回合提升第一次弃牌牌型的等级"
 	},
 	{
+		"id": "056",
 		"zh_name": "天文学家",
 		"en_name": "Astronomer",
 		"price": 8,
+		"rarity": 1,
 		"description": "商店内所有星球牌和天体包免费"
 	},
 	{
+		"id": "057",
 		"zh_name": "驾驶证",
 		"en_name": "Driver's License",
 		"price": 7,
+		"rarity": 2,
 		"description": "若强化牌至少有16张，x3倍率"
 	},
 	{
+		"id": "058",
 		"zh_name": "窃贼",
 		"en_name": "Burglar",
 		"price": 6,
+		"rarity": 1,
 		"description": "选择盲注后，+3出牌次数，失去所有弃牌"
 	},
 	{
+		"id": "059",
 		"zh_name": "黑板",
 		"en_name": "Blackboard",
 		"price": 6,
+		"rarity": 1,
 		"description": "若手牌中未打出的牌全是黑桃或梅花，x2倍率"
 	},
 	{
+		"id": "060",
 		"zh_name": "跑者",
 		"en_name": "Runner",
 		"price": 5,
+		"rarity": 0,
 		"description": "+20筹码，每打出一次顺子永久+10筹码"
 	},
 	{
+		"id": "061",
 		"zh_name": "星座",
 		"en_name": "Constellation",
 		"price": 6,
+		"rarity": 1,
 		"description": "每使用一张星球牌，+0.1倍率"
 	},
 	{
+		"id": "062",
 		"zh_name": "特技演员",
 		"en_name": "Stuntman",
 		"price": 7,
+		"rarity": 2,
 		"description": "1/5概率获得+500筹码"
 	},
 	{
+		"id": "063",
 		"zh_name": "快枪手",
 		"en_name": "Quickdraw",
 		"price": 6,
+		"rarity": 1,
 		"description": "手牌+2，但每回合出牌次数-1"
 	},
 	{
+		"id": "064",
 		"zh_name": "红牌",
 		"en_name": "Red Card",
 		"price": 5,
+		"rarity": 0,
 		"description": "每跳过补充包，+3倍率"
 	},
 	{
+		"id": "065",
 		"zh_name": "吸血鬼",
 		"en_name": "Vampire",
 		"price": 7,
+		"rarity": 1,
 		"description": "每计分一张强化牌，+0.1倍率并移除其强化"
 	},
 	{
+		"id": "066",
 		"zh_name": "卫星",
 		"en_name": "Satellite",
 		"price": 6,
+		"rarity": 1,
 		"description": "每轮根据使用过的独特星球牌数提供$1"
 	},
 	{
+		"id": "067",
 		"zh_name": "复古",
 		"en_name": "Throwback",
 		"price": 6,
+		"rarity": 1,
 		"description": "每跳过一次盲注倍率+0.25，起始x1"
 	},
 	{
+		"id": "068",
 		"zh_name": "捡漏",
 		"en_name": "Pickpocket",
 		"price": 4,
+		"rarity": 0,
 		"description": "弃牌时，若弃掉的牌有可触发效果，获得$1"
 	},
 	{
+		"id": "069",
 		"zh_name": "全息",
 		"en_name": "Hologram",
 		"price": 7,
+		"rarity": 1,
 		"description": "每向牌组加一张牌倍率+0.25"
 	},
 	{
+		"id": "070",
 		"zh_name": "露营",
 		"en_name": "Campfire",
 		"price": 9,
+		"rarity": 2,
 		"description": "出售卡牌时倍率+0.5，击败Boss后重置"
 	},
 	{
+		"id": "071",
 		"zh_name": "望远镜",
 		"en_name": "Telescope",
 		"price": 6,
+		"rarity": 1,
 		"description": "商店中必定出现与当前牌型匹配的星球牌"
 	},
 	{
+		"id": "072",
 		"zh_name": "空间小丑",
 		"en_name": "Space Joker",
 		"price": 5,
+		"rarity": 1,
 		"description": "出牌后1/4几率提升该牌型等级"
 	},
 	{
+		"id": "073",
 		"zh_name": "幸运猫",
 		"en_name": "Lucky Cat",
 		"price": 6,
+		"rarity": 1,
 		"description": "每张幸运牌成功触发，倍率+0.25"
 	},
 	{
+		"id": "074",
 		"zh_name": "石头小丑",
 		"en_name": "Stone Joker",
 		"price": 6,
+		"rarity": 1,
 		"description": "牌组中每张石头牌，+25筹码"
 	},
 	{
+		"id": "075",
 		"zh_name": "黄金票",
 		"en_name": "Golden Ticket",
 		"price": 5,
+		"rarity": 0,
 		"description": "计分黄金牌时，获得$4"
 	},
 	{
+		"id": "076",
 		"zh_name": "玫瑰园",
 		"en_name": "Rose Garden",
 		"price": 7,
+		"rarity": 1,
 		"description": "打出红心时，获得x1.5倍率"
 	},
 	{
+		"id": "077",
 		"zh_name": "旋转木马",
 		"en_name": "Merry Go Round",
 		"price": 8,
+		"rarity": 1,
 		"description": "每打出一张A，获得x1.5倍率"
 	},
 	{
+		"id": "078",
 		"zh_name": "烛台",
 		"en_name": "Candelabrum",
 		"price": 4,
+		"rarity": 0,
 		"description": "打出三条时，+50筹码，x1.5倍率"
 	},
 	{
+		"id": "079",
 		"zh_name": "披萨",
 		"en_name": "Pizza",
 		"price": 4,
+		"rarity": 0,
 		"description": "打出同花时，+60筹码，x1.5倍率"
 	},
 	{
+		"id": "080",
 		"zh_name": "雪人",
 		"en_name": "Snowman",
 		"price": 4,
+		"rarity": 0,
 		"description": "每轮结束出售价值+1"
 	},
 	{
+		"id": "081",
 		"zh_name": "天气预报",
 		"en_name": "Weather Report",
 		"price": 6,
+		"rarity": 1,
 		"description": "计分一张石头牌后，随机牌变为石头牌"
 	},
 	{
+		"id": "082",
 		"zh_name": "大篷车",
 		"en_name": "Caravan",
 		"price": 7,
+		"rarity": 1,
 		"description": "计分梅花时，+30筹码"
 	},
 	{
+		"id": "083",
 		"zh_name": "绿洲",
 		"en_name": "Oasis",
 		"price": 7,
+		"rarity": 1,
 		"description": "计分方片时，+30筹码"
 	},
 	{
+		"id": "084",
 		"zh_name": "阳光",
 		"en_name": "Sunshine",
 		"price": 7,
+		"rarity": 1,
 		"description": "计分红心时，+30筹码"
 	},
 	{
+		"id": "085",
 		"zh_name": "月光",
 		"en_name": "Moonlight",
 		"price": 7,
+		"rarity": 1,
 		"description": "计分黑桃时，+30筹码"
 	},
 	{
+		"id": "086",
 		"zh_name": "卡牌算命",
 		"en_name": "Cartomancy",
 		"price": 6,
+		"rarity": 1,
 		"description": "每轮开始时，免费获得一张塔罗牌"
 	},
 	{
+		"id": "087",
 		"zh_name": "行星仪",
 		"en_name": "Orrery",
 		"price": 8,
+		"rarity": 1,
 		"description": "每轮开始时，免费获得一张星球牌"
 	},
 	{
+		"id": "088",
 		"zh_name": "里程碑",
 		"en_name": "Milestone",
 		"price": 5,
+		"rarity": 0,
 		"description": "打出顺子时，+80筹码"
 	},
 	{
+		"id": "089",
 		"zh_name": "狙击手",
 		"en_name": "Sniper",
 		"price": 4,
+		"rarity": 0,
 		"description": "弃掉人头牌时，获得$1"
 	},
 	{
+		"id": "090",
 		"zh_name": "指挥官",
 		"en_name": "Commander",
 		"price": 4,
+		"rarity": 0,
 		"description": "手牌上限+1"
 	},
 	{
+		"id": "091",
 		"zh_name": "走私者",
 		"en_name": "Smuggler",
 		"price": 4,
+		"rarity": 0,
 		"description": "商店刷出更多卡包"
 	},
 	{
+		"id": "092",
 		"zh_name": "锦标赛",
 		"en_name": "Tournament",
 		"price": 8,
+		"rarity": 2,
 		"description": "打出同花顺时，+200筹码"
 	},
 	{
+		"id": "093",
 		"zh_name": "杂技演员",
 		"en_name": "Acrobat",
 		"price": 6,
+		"rarity": 1,
 		"description": "一轮中最后出手的牌提供x3倍率"
 	},
 	{
+		"id": "094",
 		"zh_name": "箭头",
 		"en_name": "Arrowhead",
 		"price": 7,
+		"rarity": 1,
 		"description": "所有打出的黑桃牌计分时+50筹码"
 	},
 	{
+		"id": "095",
 		"zh_name": "血石",
 		"en_name": "Bloodstone",
 		"price": 7,
+		"rarity": 1,
 		"description": "计分红桃牌时有1/2几率获得x1.5倍率"
 	},
 	{
+		"id": "096",
 		"zh_name": "马靴",
 		"en_name": "Bootstraps",
 		"price": 7,
+		"rarity": 1,
 		"description": "每$5提供+2倍率"
 	},
 	{
+		"id": "097",
 		"zh_name": "证书",
 		"en_name": "Certificate",
 		"price": 6,
+		"rarity": 1,
 		"description": "每轮开始时，生成一张带随机印章的随机牌"
 	},
 	{
+		"id": "098",
 		"zh_name": "第八个球",
 		"en_name": "8 Ball",
 		"price": 5,
+		"rarity": 0,
 		"description": "计分每张8时，1/4几率生成一张塔罗牌"
 	},
 	{
+		"id": "099",
 		"zh_name": "云9",
 		"en_name": "Cloud 9",
 		"price": 7,
+		"rarity": 1,
 		"description": "牌组中每张9每轮提供$1"
 	},
 	{
+		"id": "100",
 		"zh_name": "侵蚀",
 		"en_name": "Erosion",
 		"price": 6,
+		"rarity": 1,
 		"description": "牌组少于52张时，每张牌+4倍率"
 	},
 	{
+		"id": "101",
 		"zh_name": "锤子",
 		"en_name": "Hammer",
 		"price": 4,
+		"rarity": 0,
 		"description": "弃牌时获得一个加倍剩余弃牌的倍率效果"
 	},
 	{
+		"id": "102",
 		"zh_name": "信号灯",
 		"en_name": "Traffic Light",
 		"price": 8,
+		"rarity": 2,
 		"description": "打出对子时，获得x1.5倍率"
 	},
 	{
+		"id": "103",
 		"zh_name": "欢乐脚印",
 		"en_name": "Happy Feet",
 		"price": 8,
+		"rarity": 2,
 		"description": "弃牌时，获得x1.5倍率"
 	},
 	{
+		"id": "104",
 		"zh_name": "音乐家",
 		"en_name": "Musician",
 		"price": 8,
+		"rarity": 2,
 		"description": "打出顺子时，获得x1.5倍率"
 	},
 	{
+		"id": "105",
 		"zh_name": "画家",
 		"en_name": "Painter",
 		"price": 8,
+		"rarity": 2,
 		"description": "打出同花时，获得x1.5倍率"
 	},
 	{
+		"id": "106",
 		"zh_name": "魔术师",
 		"en_name": "Magician",
 		"price": 8,
+		"rarity": 2,
 		"description": "打出四条时，获得x1.5倍率"
 	},
 	{
+		"id": "107",
 		"zh_name": "邮差",
 		"en_name": "Postman",
 		"price": 4,
+		"rarity": 0,
 		"description": "每弃掉一张人头牌，获得$1"
 	},
 	{
+		"id": "108",
 		"zh_name": "回收者",
 		"en_name": "Recycler",
 		"price": 6,
+		"rarity": 1,
 		"description": "每弃掉一张牌，获得$1"
 	},
 	{
+		"id": "109",
 		"zh_name": "税吏",
 		"en_name": "Taxman",
 		"price": 4,
+		"rarity": 0,
 		"description": "打出人头牌时，获得$1"
 	},
 	{
+		"id": "110",
 		"zh_name": "旅行者",
 		"en_name": "Traveler",
 		"price": 4,
+		"rarity": 0,
 		"description": "每回合结束，每张未使用的弃牌给予$2"
 	},
 	{
+		"id": "111",
 		"zh_name": "水手",
 		"en_name": "Sailor",
 		"price": 6,
+		"rarity": 1,
 		"description": "手牌中每张石头牌，+20筹码"
 	},
 	{
+		"id": "112",
 		"zh_name": "铁匠",
 		"en_name": "Blacksmith",
 		"price": 5,
+		"rarity": 1,
 		"description": "每回合结束，随机升级一张手牌的等级"
 	},
 	{
+		"id": "113",
 		"zh_name": "宝石匠",
 		"en_name": "Jeweler",
 		"price": 6,
+		"rarity": 1,
 		"description": "生成一张随机塔罗牌"
 	},
 	{
+		"id": "114",
 		"zh_name": "木匠",
 		"en_name": "Carpenter",
 		"price": 6,
+		"rarity": 1,
 		"description": "生成一张随机星球牌"
 	},
 	{
+		"id": "115",
 		"zh_name": "男爵",
 		"en_name": "Baron",
 		"price": 8,
+		"rarity": 2,
 		"description": "每张手中的K提供x1.5倍率"
 	},
 	{
+		"id": "116",
 		"zh_name": "公牛",
 		"en_name": "Bull",
 		"price": 6,
+		"rarity": 1,
 		"description": "每持有$2提供+2筹码"
 	},
 	{
+		"id": "117",
 		"zh_name": "悬垂查德",
 		"en_name": "Hanging Chad",
 		"price": 4,
+		"rarity": 0,
 		"description": "重新触发计分的第一张牌2次"
 	},
 	{
+		"id": "118",
 		"zh_name": "照片",
 		"en_name": "Photograph",
 		"price": 5,
+		"rarity": 0,
 		"description": "第一张计分的人头牌提供x2倍率"
 	},
 	{
+		"id": "119",
 		"zh_name": "拉面",
 		"en_name": "Ramen",
 		"price": 6,
+		"rarity": 1,
 		"description": "起始x2倍率，每弃一张牌-0.01"
 	},
 	{
+		"id": "120",
 		"zh_name": "钢铁小丑",
 		"en_name": "Steel Joker",
 		"price": 7,
+		"rarity": 1,
 		"description": "牌组中每张钢制牌提供+0.2倍率"
 	},
 	{
+		"id": "121",
 		"zh_name": "玻璃小丑",
 		"en_name": "Glass Joker",
 		"price": 6,
+		"rarity": 1,
 		"description": "每张玻璃牌被破坏时倍率+0.75"
 	},
 	{
+		"id": "122",
 		"zh_name": "黑客",
 		"en_name": "Hack",
 		"price": 6,
+		"rarity": 1,
 		"description": "重新触发每个计分的2/3/4/5"
 	},
 	{
+		"id": "123",
 		"zh_name": "威斯",
 		"en_name": "Wee",
 		"price": 8,
+		"rarity": 2,
 		"description": "每张计分的2，永久+1倍率"
 	},
 	{
+		"id": "124",
 		"zh_name": "奇数陶德",
 		"en_name": "Odd Todd",
 		"price": 4,
+		"rarity": 0,
 		"description": "计分奇数点数的牌，每张+31筹码"
 	},
 	{
+		"id": "125",
 		"zh_name": "神像",
 		"en_name": "The Idol",
 		"price": 6,
+		"rarity": 1,
 		"description": "每打出特定的牌时x2倍率（每轮变换）"
 	},
 	{
+		"id": "126",
 		"zh_name": "卡尼奥",
 		"en_name": "Canio",
 		"price": 20,
+		"rarity": 3,
 		"description": "当一张人头牌被摧毁时，获得x1倍率"
 	},
 	{
+		"id": "127",
 		"zh_name": "特瑞布莱特",
 		"en_name": "Triboulet",
 		"price": 20,
+		"rarity": 3,
 		"description": "计分K或Q时，提供x2倍率"
 	},
 	{
+		"id": "128",
 		"zh_name": "约里克",
 		"en_name": "Yorick",
 		"price": 20,
+		"rarity": 3,
 		"description": "使用了23次弃牌后，获得x5倍率"
 	},
 	{
+		"id": "129",
 		"zh_name": "奇科特",
 		"en_name": "Chicot",
 		"price": 20,
+		"rarity": 3,
 		"description": "禁用所有Boss盲注的效果"
 	},
 	{
+		"id": "130",
 		"zh_name": "珀尔克奥",
 		"en_name": "Perkeo",
 		"price": 20,
+		"rarity": 3,
 		"description": "商店结束时，复制一张随机消耗卡为负片版本"
 	}
 ]

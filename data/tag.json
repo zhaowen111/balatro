@@ -37,7 +37,12 @@
 			{
 				"trigger": "ON_NEXT_BOSS_DEFEATED",
 				"consume": true,
-				"effects": [{ "type": "ADD_MONEY", "amount": 25 }]
+				"effects": [
+					{
+						"type": "ADD_MONEY",
+						"amount": 25
+					}
+				]
 			}
 		]
 	},
@@ -64,7 +69,13 @@
 			{
 				"trigger": "ON_TAG_SELECTED",
 				"consume": true,
-				"effects": [{ "type": "MULTIPLY_MONEY", "multiplier": 2, "cap": 40 }]
+				"effects": [
+					{
+						"type": "MULTIPLY_MONEY",
+						"multiplier": 2,
+						"cap": 40
+					}
+				]
 			}
 		]
 	},

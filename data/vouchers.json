@@ -1,97 +1,97 @@
 [
 	{
-		"name_en": "Reroll Surplus",
-		"name_zh": "库存过剩",
+		"en_name": "Reroll Surplus",
+		"zh_name": "库存过剩",
 		"description": "商店栏位+1（升级版：商店栏位+2）",
 		"price": 10
 	},
 	{
-		"name_en": "Liquidation",
-		"name_zh": "清仓特卖",
+		"en_name": "Liquidation",
+		"zh_name": "清仓特卖",
 		"description": "商店所有物品售价-1$（升级版：售价-2$）",
 		"price": 10
 	},
 	{
-		"name_en": "Crystal Ball",
-		"name_zh": "水晶球",
+		"en_name": "Crystal Ball",
+		"zh_name": "水晶球",
 		"description": "消耗牌槽位+1（升级版：幻灵牌出现概率+20%）",
 		"price": 10
 	},
 	{
-		"name_en": "Grabber",
-		"name_zh": "抓手",
+		"en_name": "Grabber",
+		"zh_name": "抓手",
 		"description": "出牌次数+1（升级版：出牌次数额外+1）",
 		"price": 10
 	},
 	{
-		"name_en": "Wasteful",
-		"name_zh": "常弃常新",
+		"en_name": "Wasteful",
+		"zh_name": "常弃常新",
 		"description": "弃牌次数+1（升级版：弃牌次数额外+1）",
 		"price": 10
 	},
 	{
-		"name_en": "Paint Brush",
-		"name_zh": "油漆刷",
+		"en_name": "Paint Brush",
+		"zh_name": "油漆刷",
 		"description": "手牌上限+1（升级版：手牌上限额外+1）",
 		"price": 10
 	},
 	{
-		"name_en": "Director's Cut",
-		"name_zh": "导演剪辑",
+		"en_name": "Director's Cut",
+		"zh_name": "导演剪辑",
 		"description": "可刷新Boss盲注1次（升级版：可额外刷新1次）",
 		"price": 10
 	},
 	{
-		"name_en": "Overstock",
-		"name_zh": "多次重掷",
+		"en_name": "Overstock",
+		"zh_name": "多次重掷",
 		"description": "商店重掷费用-1$（升级版：重掷费用-2$）",
 		"price": 10
 	},
 	{
-		"name_en": "Telescope",
-		"name_zh": "望远镜",
+		"en_name": "Telescope",
+		"zh_name": "望远镜",
 		"description": "卡包中必定包含玩家最常打出的牌型对应的星球牌（升级版：游戏得分翻倍，但消耗牌槽位-1）",
 		"price": 10
 	},
 	{
-		"name_en": "Seed Money",
-		"name_zh": "种子基金",
+		"en_name": "Seed Money",
+		"zh_name": "种子基金",
 		"description": "利息上限+5$（升级版：利息上限额外+5$）",
 		"price": 10
 	},
 	{
-		"name_en": "Tarot Merchant",
-		"name_zh": "塔罗牌商人",
+		"en_name": "Tarot Merchant",
+		"zh_name": "塔罗牌商人",
 		"description": "塔罗牌在商店出现概率+20%（升级版：塔罗牌出现概率再+20%）",
 		"price": 10
 	},
 	{
-		"name_en": "Blank",
-		"name_zh": "空白",
+		"en_name": "Blank",
+		"zh_name": "空白",
 		"description": "无效果，购买10次后可解锁升级版“反物质”（升级版：小丑槽位+1）",
 		"price": 10
 	},
 	{
-		"name_en": "Hieroglyph",
-		"name_zh": "象形文字",
+		"en_name": "Hieroglyph",
+		"zh_name": "象形文字",
 		"description": "底注-1，但出牌次数-1（升级版：底注-1，弃牌次数-1）",
 		"price": 10
 	},
 	{
-		"name_en": "Magic Trick",
-		"name_zh": "魔术",
+		"en_name": "Magic Trick",
+		"zh_name": "魔术",
 		"description": "卡包中消耗牌出现概率+10%（升级版：+20%）",
 		"price": 10
 	},
 	{
-		"name_en": "Illusion",
-		"name_zh": "幻象",
+		"en_name": "Illusion",
+		"zh_name": "幻象",
 		"description": "卡牌可能在商店中出现聚光版本（升级版：聚光版本出现概率提升）",
 		"price": 10
 	},
 	{
-		"name_en": "Observatory",
-		"name_zh": "天文台",
+		"en_name": "Observatory",
+		"zh_name": "天文台",
 		"description": "星球牌被使用时，X倍率+1.5（升级版：X倍率额外+1.5）",
 		"price": 10
 	}
