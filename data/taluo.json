@@ -1,0 +1,134 @@
+[
+	{
+		"name_en": "The Fool",
+		"name_zh": "愚者",
+		"description": "生成上一张塔罗牌或星球牌（愚者本身除外）",
+		"price": 4
+	},
+	{
+		"name_en": "The Magician",
+		"name_zh": "魔术师",
+		"description": "使1张卡牌变为幸运牌（1/5概率+20倍率，1/15概率+20$）",
+		"price": 4
+	},
+	{
+		"name_en": "The High Priestess",
+		"name_zh": "女祭司",
+		"description": "生成最多2张随机星球牌",
+		"price": 4
+	},
+	{
+		"name_en": "The Empress",
+		"name_zh": "皇后",
+		"description": "使2张卡牌变为倍率牌（+4倍率）",
+		"price": 4
+	},
+	{
+		"name_en": "The Emperor",
+		"name_zh": "皇帝",
+		"description": "生成最多2张随机塔罗牌",
+		"price": 4
+	},
+	{
+		"name_en": "The Hierophant",
+		"name_zh": "教皇",
+		"description": "使2张卡牌变为奖励牌（+30筹码）",
+		"price": 4
+	},
+	{
+		"name_en": "The Lovers",
+		"name_zh": "恋人",
+		"description": "使1张卡牌变为万能牌（视为任何花色）",
+		"price": 4
+	},
+	{
+		"name_en": "The Chariot",
+		"name_zh": "战车",
+		"description": "使1张卡牌变为钢铁牌（持有时+1.5倍率）",
+		"price": 4
+	},
+	{
+		"name_en": "Justice",
+		"name_zh": "正义",
+		"description": "使1张卡牌变为玻璃牌（×2倍率，1/4概率自毁）",
+		"price": 4
+	},
+	{
+		"name_en": "The Hermit",
+		"name_zh": "隐士",
+		"description": "金钱翻倍，最多至20$",
+		"price": 4
+	},
+	{
+		"name_en": "The Wheel of Fortune",
+		"name_zh": "命运之轮",
+		"description": "1/4概率为随机小丑牌添加闪箔/镭射/多彩特效",
+		"price": 4
+	},
+	{
+		"name_en": "Death",
+		"name_zh": "死神",
+		"description": "选定2张牌，左侧完全变为右侧（花色、点数、增强效果）",
+		"price": 4
+	},
+	{
+		"name_en": "Strength",
+		"name_zh": "力量",
+		"description": "最多2张牌点数+1",
+		"price": 4
+	},
+	{
+		"name_en": "The Hanged Man",
+		"name_zh": "倒吊人",
+		"description": "最多删除2张牌",
+		"price": 4
+	},
+	{
+		"name_en": "Temperance",
+		"name_zh": "节制",
+		"description": "获得当前小丑牌总售价的金钱",
+		"price": 4
+	},
+	{
+		"name_en": "Judgement",
+		"name_zh": "审判",
+		"description": "生成1张随机小丑牌",
+		"price": 4
+	},
+	{
+		"name_en": "The World",
+		"name_zh": "世界",
+		"description": "最多3张牌变为黑桃♠",
+		"price": 4
+	},
+	{
+		"name_en": "The Sun",
+		"name_zh": "太阳",
+		"description": "最多3张牌变为红桃♥",
+		"price": 4
+	},
+	{
+		"name_en": "The Moon",
+		"name_zh": "月亮",
+		"description": "最多3张牌变为梅花♣",
+		"price": 4
+	},
+	{
+		"name_en": "The Star",
+		"name_zh": "星星",
+		"description": "最多3张牌变为方片♦",
+		"price": 4
+	},
+	{
+		"name_en": "The Tower",
+		"name_zh": "高塔",
+		"description": "使1张卡牌变为石头牌（+50筹码，无点数无花色）",
+		"price": 4
+	},
+	{
+		"name_en": "The Devil",
+		"name_zh": "魔鬼",
+		"description": "使1张卡牌变为黄金牌（战斗结束时若仍在手牌中，获得3$）",
+		"price": 4
+	}
+]
